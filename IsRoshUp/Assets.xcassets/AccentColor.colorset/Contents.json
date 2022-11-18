@@ -1,7 +1,151 @@
 {
   "colors" : [
     {
-      "idiom" : "universal"
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "ipad"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "ipad"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "ipad"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "ipad",
+      "subtype" : "mac-catalyst"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "ipad",
+      "subtype" : "mac-catalyst"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.141",
+          "green" : "0.141",
+          "red" : "0.141"
+        }
+      },
+      "idiom" : "ipad",
+      "subtype" : "mac-catalyst"
     }
   ],
   "info" : {

@@ -20,6 +20,8 @@ Substitute MM:XX for the time that Roshan was killed.
   * This app does not use the user's location.
 * Add a way to manually set the game time
 * App icon
+  * using this: https://dotawallpapers.com/roshan-desktop-wallpaper/ without
+    attribution! Thanks to https://dotawallpapers.com/?s=Tianxiang%20Wang
 * Launch assets
 * 'Donate' intent to Siri / Custom vocabulary
   * https://developer.apple.com/videos/play/wwdc2021/10231/
