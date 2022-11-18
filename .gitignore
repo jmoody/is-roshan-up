@@ -1,0 +1,20 @@
+# emacs and vim
+*~
+(.*/)?\#[^/]*\#$
+*.swp
+
+.DS_Store
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+tmp
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# JetBrains
+.idea
+*.iml
