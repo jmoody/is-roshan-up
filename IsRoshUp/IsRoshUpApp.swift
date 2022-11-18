@@ -16,6 +16,9 @@ struct isroshupApp: App {
           intentHandler.userActivity = userActivity
           intentHandler.handleActivity()
         })
+        .onAppear(perform: {
+          UIApplication.shared.isIdleTimerDisabled = true
+        })
     }.onChange(of: scenePhase) { phase in
       INPreferences.requestSiriAuthorization { (status) in
         // handle errors
