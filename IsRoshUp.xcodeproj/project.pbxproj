@@ -11,6 +11,8 @@
 		F55067712927A94D001CB885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55067702927A94D001CB885 /* ContentView.swift */; };
 		F55067732927A94E001CB885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55067722927A94E001CB885 /* Assets.xcassets */; };
 		F55067772927A94E001CB885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55067762927A94E001CB885 /* Preview Assets.xcassets */; };
+		F550677F2927AC81001CB885 /* IRUQRoshTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550677E2927AC81001CB885 /* IRUQRoshTimer.swift */; };
+		F55067812927ACC1001CB885 /* IRUQIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55067802927ACC1001CB885 /* IRUQIntentHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		F55067742927A94E001CB885 /* IsRoshUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IsRoshUp.entitlements; sourceTree = "<group>"; };
 		F55067762927A94E001CB885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F550677D2927ABA6001CB885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F550677E2927AC81001CB885 /* IRUQRoshTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQRoshTimer.swift; sourceTree = "<group>"; };
+		F55067802927ACC1001CB885 /* IRUQIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQIntentHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				F55067722927A94E001CB885 /* Assets.xcassets */,
 				F55067742927A94E001CB885 /* IsRoshUp.entitlements */,
 				F55067752927A94E001CB885 /* Preview Content */,
+				F550677E2927AC81001CB885 /* IRUQRoshTimer.swift */,
+				F55067802927ACC1001CB885 /* IRUQIntentHandler.swift */,
 			);
 			path = IsRoshUp;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F55067712927A94D001CB885 /* ContentView.swift in Sources */,
+				F550677F2927AC81001CB885 /* IRUQRoshTimer.swift in Sources */,
 				F550676F2927A94D001CB885 /* IsRoshUpApp.swift in Sources */,
+				F55067812927ACC1001CB885 /* IRUQIntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +301,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.isroshup.IsRoshUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,7 +344,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.isroshup.IsRoshUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
