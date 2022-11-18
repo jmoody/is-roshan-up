@@ -20,6 +20,7 @@
 		F55067722927A94E001CB885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F55067742927A94E001CB885 /* IsRoshUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IsRoshUp.entitlements; sourceTree = "<group>"; };
 		F55067762927A94E001CB885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F550677D2927ABA6001CB885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		F550676D2927A94D001CB885 /* IsRoshUp */ = {
 			isa = PBXGroup;
 			children = (
+				F550677D2927ABA6001CB885 /* Info.plist */,
 				F550676E2927A94D001CB885 /* IsRoshUpApp.swift */,
 				F55067702927A94D001CB885 /* ContentView.swift */,
 				F55067722927A94E001CB885 /* Assets.xcassets */,
@@ -270,6 +272,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsRoshUp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Is Rosh Up?";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -310,6 +313,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsRoshUp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Is Rosh Up?";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
