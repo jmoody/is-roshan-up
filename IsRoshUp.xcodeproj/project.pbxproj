@@ -14,7 +14,7 @@
 		F550677F2927AC81001CB885 /* IRUQRoshTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550677E2927AC81001CB885 /* IRUQRoshTimer.swift */; };
 		F55067812927ACC1001CB885 /* IRUQIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55067802927ACC1001CB885 /* IRUQIntentHandler.swift */; };
 		F55067892927B047001CB885 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55067882927B047001CB885 /* Intents.framework */; };
-		F550678C2927B047001CB885 /* IRUQExtIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550678B2927B047001CB885 /* IRUQExtIntentHandler.swift */; };
+		F550678C2927B047001CB885 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550678B2927B047001CB885 /* IntentHandler.swift */; };
 		F55067902927B047001CB885 /* IsRoshUpIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F55067862927B047001CB885 /* IsRoshUpIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F55067962927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55067952927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,7 @@
 		F55067802927ACC1001CB885 /* IRUQIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQIntentHandler.swift; sourceTree = "<group>"; };
 		F55067862927B047001CB885 /* IsRoshUpIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IsRoshUpIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55067882927B047001CB885 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
-		F550678B2927B047001CB885 /* IRUQExtIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQExtIntentHandler.swift; sourceTree = "<group>"; };
+		F550678B2927B047001CB885 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		F550678D2927B047001CB885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F55067952927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQExtStartWorkoutIntentHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,7 +132,7 @@
 		F550678A2927B047001CB885 /* IsRoshUpIntent */ = {
 			isa = PBXGroup;
 			children = (
-				F550678B2927B047001CB885 /* IRUQExtIntentHandler.swift */,
+				F550678B2927B047001CB885 /* IntentHandler.swift */,
 				F550678D2927B047001CB885 /* Info.plist */,
 				F55067952927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift */,
 			);
@@ -252,7 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F55067962927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift in Sources */,
-				F550678C2927B047001CB885 /* IRUQExtIntentHandler.swift in Sources */,
+				F550678C2927B047001CB885 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

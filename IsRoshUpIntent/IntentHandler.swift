@@ -1,6 +1,6 @@
 import Intents
 
-class IRUQExtIntentHandler: INExtension {
+class IntentHandler: INExtension {
 
   override func handler(for intent: INIntent) -> Any? {
     if intent is INStartWorkoutIntent {
