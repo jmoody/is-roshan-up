@@ -13,7 +13,35 @@
 		F55067772927A94E001CB885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55067762927A94E001CB885 /* Preview Assets.xcassets */; };
 		F550677F2927AC81001CB885 /* IRUQRoshTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550677E2927AC81001CB885 /* IRUQRoshTimer.swift */; };
 		F55067812927ACC1001CB885 /* IRUQIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55067802927ACC1001CB885 /* IRUQIntentHandler.swift */; };
+		F55067892927B047001CB885 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55067882927B047001CB885 /* Intents.framework */; };
+		F550678C2927B047001CB885 /* IRUQExtIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550678B2927B047001CB885 /* IRUQExtIntentHandler.swift */; };
+		F55067902927B047001CB885 /* IsRoshUpIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F55067862927B047001CB885 /* IsRoshUpIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F55067962927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55067952927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F550678E2927B047001CB885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55067632927A94D001CB885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55067852927B047001CB885;
+			remoteInfo = IsRoshUpIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F55067942927B047001CB885 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F55067902927B047001CB885 /* IsRoshUpIntent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F550676B2927A94D001CB885 /* IsRoshUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsRoshUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +53,11 @@
 		F550677D2927ABA6001CB885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F550677E2927AC81001CB885 /* IRUQRoshTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQRoshTimer.swift; sourceTree = "<group>"; };
 		F55067802927ACC1001CB885 /* IRUQIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQIntentHandler.swift; sourceTree = "<group>"; };
+		F55067862927B047001CB885 /* IsRoshUpIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IsRoshUpIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55067882927B047001CB885 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		F550678B2927B047001CB885 /* IRUQExtIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQExtIntentHandler.swift; sourceTree = "<group>"; };
+		F550678D2927B047001CB885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55067952927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRUQExtStartWorkoutIntentHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +68,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F55067832927B047001CB885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55067892927B047001CB885 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				F550676D2927A94D001CB885 /* IsRoshUp */,
+				F550678A2927B047001CB885 /* IsRoshUpIntent */,
+				F55067872927B047001CB885 /* Frameworks */,
 				F550676C2927A94D001CB885 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				F550676B2927A94D001CB885 /* IsRoshUp.app */,
+				F55067862927B047001CB885 /* IsRoshUpIntent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +121,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F55067872927B047001CB885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F55067882927B047001CB885 /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F550678A2927B047001CB885 /* IsRoshUpIntent */ = {
+			isa = PBXGroup;
+			children = (
+				F550678B2927B047001CB885 /* IRUQExtIntentHandler.swift */,
+				F550678D2927B047001CB885 /* Info.plist */,
+				F55067952927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift */,
+			);
+			path = IsRoshUpIntent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,15 +149,34 @@
 				F55067672927A94D001CB885 /* Sources */,
 				F55067682927A94D001CB885 /* Frameworks */,
 				F55067692927A94D001CB885 /* Resources */,
+				F55067942927B047001CB885 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F550678F2927B047001CB885 /* PBXTargetDependency */,
 			);
 			name = IsRoshUp;
 			productName = IsRoshUp;
 			productReference = F550676B2927A94D001CB885 /* IsRoshUp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F55067852927B047001CB885 /* IsRoshUpIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55067912927B047001CB885 /* Build configuration list for PBXNativeTarget "IsRoshUpIntent" */;
+			buildPhases = (
+				F55067822927B047001CB885 /* Sources */,
+				F55067832927B047001CB885 /* Frameworks */,
+				F55067842927B047001CB885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IsRoshUpIntent;
+			productName = IsRoshUpIntent;
+			productReference = F55067862927B047001CB885 /* IsRoshUpIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +190,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					F550676A2927A94D001CB885 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F55067852927B047001CB885 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -127,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				F550676A2927A94D001CB885 /* IsRoshUp */,
+				F55067852927B047001CB885 /* IsRoshUpIntent */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +223,13 @@
 			files = (
 				F55067772927A94E001CB885 /* Preview Assets.xcassets in Resources */,
 				F55067732927A94E001CB885 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55067842927B047001CB885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +247,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F55067822927B047001CB885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55067962927B17D001CB885 /* IRUQExtStartWorkoutIntentHandler.swift in Sources */,
+				F550678C2927B047001CB885 /* IRUQExtIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F550678F2927B047001CB885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55067852927B047001CB885 /* IsRoshUpIntent */;
+			targetProxy = F550678E2927B047001CB885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F55067782927A94E001CB885 /* Debug */ = {
@@ -270,6 +379,7 @@
 		F550677B2927A94E001CB885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = IsRoshUp/IsRoshUp.entitlements;
@@ -283,6 +393,7 @@
 				INFOPLIST_FILE = IsRoshUp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Is Rosh Up?";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Use Siri to set a DoTA Roshan respawn timer.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -313,6 +424,7 @@
 		F550677C2927A94E001CB885 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = IsRoshUp/IsRoshUp.entitlements;
@@ -326,6 +438,7 @@
 				INFOPLIST_FILE = IsRoshUp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Is Rosh Up?";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Use Siri to set a DoTA Roshan respawn timer.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -353,6 +466,61 @@
 			};
 			name = Release;
 		};
+		F55067922927B047001CB885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S6YLL52WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsRoshUpIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IsRoshUpIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isroshup.IsRoshUp.IsRoshUpIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F55067932927B047001CB885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S6YLL52WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsRoshUpIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IsRoshUpIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isroshup.IsRoshUp.IsRoshUpIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -370,6 +538,15 @@
 			buildConfigurations = (
 				F550677B2927A94E001CB885 /* Debug */,
 				F550677C2927A94E001CB885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55067912927B047001CB885 /* Build configuration list for PBXNativeTarget "IsRoshUpIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55067922927B047001CB885 /* Debug */,
+				F55067932927B047001CB885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
