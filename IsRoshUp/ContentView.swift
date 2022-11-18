@@ -19,6 +19,8 @@ struct ContentView: View {
           .font(.largeTitle)
       }
 
+      Spacer()
+
       // times
       VStack(alignment: .trailing) {
         // expires
